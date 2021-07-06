@@ -1,0 +1,235 @@
+/* 
+* Style CSS
+* Viewport: 1367 x 1000
+*/
+
+/*===============CSS RESET====================== */
+*{ margin: 0;padding: 0; box-sizing: border-box; }
+img{ max-width: 100%; }
+body{ font-family: 'Montserrat', sans-serif; color: #818181; }
+
+/*================Default Column Width========== */
+.container{width: 90%; margin: 0 auto;}
+.jb-col-12{width: 90%;}
+.jb-col-8{width: 66.67%;}
+.jb-col-6{width: 50%;}
+.jb-col-4{width: 33.33%;}
+
+
+/*================THMEME COLORS========== */
+.jb-orange{color: #ffa100;}
+
+/*================HEADER AREA==================== */ 
+#jb-header-area{ width: 100%;}
+.logo a {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.2em;
+    padding-top: 35px;
+}
+.main-menu nav {
+    padding-top: 35px;
+    transition: .5s;
+}
+
+.main-menu nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.main-menu nav ul li {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 21px;
+    padding-right: 15px;
+}
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+.main-menu nav ul li a.active {
+    color: orange;
+}
+
+#jb-header-area .container{
+    display: flex;
+}
+
+.jb-text-widget h1 {
+    font-size: 4em;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-top: 30vh;
+    text-transform: capitalize;
+}
+
+.jb-text-widget p {
+    margin: 30px 0 50px;
+    font-size: 1.4em;
+}
+
+a.jb-button-primary {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(300deg, #ff3d2e, #ff8f49);
+    color: #ffffff;
+    box-shadow: 5px 5px 30px #ff924a;
+}
+
+/*================ABOUT ME==================== */
+#jb-about-area{
+    background-image: url(../images/shapes/7.png);
+}
+#jb-about-area .container{
+    display: flex;
+}
+#jb-about-area .container .jb-image-widget img{
+    max-width: 300px;
+    max-height: 470;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding-top: 20vh;
+}
+#jb-about-area .container .jb-text-widget h3{
+    padding-top: 30vh;
+    font-size: 3em;
+}
+/*================RECIPIE==================== */
+#jb-recipie-area .container .jb-recipies{
+    display: flex;
+}
+
+.jb-section-header{
+    text-align: center;
+}
+.jb-section-header h3{padding-top: 50px; padding-bottom:30px;}
+.jb-section-header p{width: 70%; margin: 0 auto;}
+.jb-recipie-item {
+    background: white;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px #ededed;
+}
+
+.jb-recipie-item h3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.jb-recipie-item p{
+    font-size: 1.2em;
+}
+
+/*================SOCIAL STATISTICS==================== */
+#jb-social-stats-area .container .jb-social-stats{
+    display: flex;
+    box-shadow: 5px 5px 36px #ededed;
+    padding: 30px 0;
+    border-radius: 30px;
+    margin: 0 35px;
+}
+
+#jb-social-stats-area { margin-top: 100px; margin-bottom: 60px; }
+.jb-social-media { text-align: center; }
+.jb-social-media h3 { font-size: 4em; }
+.jb-social-media p { padding: 10px; }
+
+/*================HOT DEAL AREA==================== */
+#jb-deal-area{
+    width: 100%;
+    background-image: url(../images/food/Project-Cover4.png);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#jb-deal-area .overlay{
+    width: 100%;
+    padding: 100px;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.jb-deal h1{
+    text-transform: uppercase; 
+    padding: 25px 0;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.jb-deal p{width: 60%; margin: 0 auto;margin-bottom: 10px; font-size: 20px;}
+.jb-deal a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(300deg, #ff3d2e, #ff8f49);
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+/*================BLOG AREA==================== */
+.jb-blog-area{width: 100%; margin-bottom: 30px;}
+.blog{display: flex;}
+
+.single-blog{
+    display: flex;
+    padding: 20px;
+    border-bottom: 3px dotted #ededed;
+    margin-right: 15px;
+}
+.single-blog img{
+    margin-right: 10px;
+    padding: 20px;
+    max-width: 270px;
+    
+}
+.jb-border-bottom{width: 10%; display: block; margin: 0 auto; border-bottom: 3px solid #ededed; padding: 15px 0;}
+
+.blog-text h3 {
+    padding: 20px 0 5px;
+}
+
+.blog-text p { padding: 5px 0; }
+.blog-text a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(300deg, #ff3d2e, #ff8f49);
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.jb-browse-more .container { padding: 30px; text-align: center; }
+.jb-browse-more .container a{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(300deg, #ff3d2e, #ff8f49);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    display: inline-block;
+}
+/*================FOOTER AREA==================== */
+footer{
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-logo h1 { padding-bottom: 20px; }
